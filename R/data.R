@@ -28,9 +28,9 @@
 #'  \item{generation_id}{a numeric vector representing the generation ID of each Pokémon}
 #'  \item{url_image}{a character vector representing the URL image of each Pokémon}
 #' }
-#' @source <http://bulbapedia.bulbagarden.net>
+#' @source <https://bulbapedia.bulbagarden.net/wiki/Main_Page>
 #' @source <https://github.com/phalt/pokeapi>
-#' @source <http://pokemon-uranium.wikia.com>
+#' @source <https://pokemon-uranium.wikia.com>
 #' @source <https://github.com/HybridShivam/Pokemon>
 "pokemon"
 
@@ -64,8 +64,8 @@
 #'  \item{url_imagem}{um vetor de caracteres representando o grupo de ovos secundário de cada Pokémon}
 #'  \item{id_geracao}{um vetor numérico representando o ID de geração de cada Pokémon}
 #' }
-#' @source <http://bulbapedia.bulbagarden.net>
+#' @source <https://bulbapedia.bulbagarden.net/wiki/Main_Page>
 #' @source <https://github.com/phalt/pokeapi>
-#' @source <http://pokemon-uranium.wikia.com>
+#' @source <https://pokemon-uranium.wikia.com>
 #' @source <https://github.com/HybridShivam/Pokemon>
 "pokemon_ptbr"

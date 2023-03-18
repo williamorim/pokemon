@@ -52,7 +52,7 @@ df_egg <- readr::read_csv(path("egg_groups.csv")) |>
   )
 
 url_bulbapedia_list <-
-  "http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_VI-present)"
+  "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_VI-present)"
 
 id <- url_bulbapedia_list |>
   rvest::read_html(encoding = "UTF-8") |>
@@ -74,7 +74,7 @@ df_color <- purrr::map_df(
   na.omit(unique(c(df_type$type_1, df_type$type_2))),
   function(t) {
     # t <- "bug"
-    col <- "http://pokemon-uranium.wikia.com/wiki/Template:%s_color" |>
+    col <- "https://pokemon-uranium.wikia.com/wiki/Template:%s_color" |>
       sprintf(t) |>
       rvest::read_html() |>
       rvest::html_nodes("span > b") |>

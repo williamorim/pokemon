@@ -32,11 +32,11 @@ Um data frame com 949 linhas e 22 colunas:
 }
 }
 \source{
-\url{http://bulbapedia.bulbagarden.net}
+\url{https://bulbapedia.bulbagarden.net/wiki/Main_Page}
 
 \url{https://github.com/phalt/pokeapi}
 
-\url{http://pokemon-uranium.wikia.com}
+\url{https://pokemon-uranium.wikia.com}
 
 \url{https://github.com/HybridShivam/Pokemon}
 }
