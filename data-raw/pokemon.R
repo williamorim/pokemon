@@ -68,7 +68,7 @@ url_icon <-  url_bulbapedia_list |>
 
 df_icon <- tibble::tibble(id, url_icon) |>
   filter(!is.na(id)) |>
-  distinct(id, u.keep_all = TRUE)
+  distinct(id, .keep_all = TRUE)
 
 df_color <- purrr::map_df(
   na.omit(unique(c(df_type$type_1, df_type$type_2))),
@@ -114,7 +114,7 @@ pokemon <- df_pkmn |>
 
 pokemon <- pokemon |>
   dplyr::mutate(
-    url_imagem = purrr::map_chr(
+    url_image = purrr::map_chr(
       stringr::str_pad(id, 3, "left", 0),
       ~ paste0(
         "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/",

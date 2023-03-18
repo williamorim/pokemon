@@ -1,11 +1,10 @@
 ## code to prepare `pokemon_ptbr` dataset goes here
 
-pokemon_ptbr <- readRDS("data-raw/rds/pkmn.rds") |>
-  select(
+pokemon_ptbr <- pokemon::pokemon |>
+  dplyr::select(
     id,
-    id_especie = species_id,
-    id_geracao = generation_id,
     pokemon,
+    id_especie = species_id,
     altura = height,
     peso = weight,
     exp_base = base_experience,
@@ -20,13 +19,16 @@ pokemon_ptbr <- readRDS("data-raw/rds/pkmn.rds") |>
     cor_1 = color_1,
     cor_2 = color_2,
     cor_final = color_f,
+    grupo_ovo_1 = egg_group_1,
+    grupo_ovo_2 = egg_group_2,
+    url_icone = url_icon,
     url_imagem = url_image,
-    url_icone = url_icon
-  ) %>%
-  mutate(
+    id_geracao = generation_id
+  ) |>
+  dplyr::mutate(
     peso = peso/10,
     altura = altura/10,
-    tipo_1 = case_when(
+    tipo_1 = dplyr::case_when(
       tipo_1 == "grass" ~ "grama",
       tipo_1 == "fire" ~ "fogo",
       tipo_1 == "water" ~ "água",
@@ -46,7 +48,7 @@ pokemon_ptbr <- readRDS("data-raw/rds/pkmn.rds") |>
       tipo_1 == "steel" ~ "aço",
       tipo_1 == "flying" ~ "voador"
     ),
-    tipo_2 = case_when(
+    tipo_2 = dplyr::case_when(
       tipo_2 == "grass" ~ "grama",
       tipo_2 == "fire" ~ "fogo",
       tipo_2 == "water" ~ "água",
