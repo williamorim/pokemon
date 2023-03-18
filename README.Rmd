@@ -1,0 +1,71 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# pokemon
+
+<!-- badges: start -->
+[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
+[![CRAN status](https://www.r-pkg.org/badges/version/pokemon)](https://CRAN.R-project.org/package=pokemon)
+[![R-CMD-check](https://github.com/williamorim/pokemon/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/williamorim/pokemon/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
+
+This package provides a dataset of Pokemon information in both English and Brazilian Portuguese. The dataset contains 949 rows and 22 columns, including information such as the Pokemon's name, ID, height, weight, stats, type, and more.
+
+## Installation
+
+You can install the pokemon package with:
+
+``` r
+install.packages("pokemon")
+```
+
+
+You can install the development version of pokemon from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+remotes::install_github("williamorim/pokemon")
+```
+
+## Example
+
+This is a basic example of pokemon data
+
+```{r example}
+library(pokemon)
+
+dplyr::glimpse(pokemon)
+dplyr::glimpse(pokemon_ptbr)
+```
+
+A basic plot:
+
+```{r}
+library(ggplot2)
+
+# Create scatter plot
+ggplot(pokemon, aes(x = height, y = weight)) +
+  geom_point() +
+  labs(
+    title = "Height vs. Weight of Pokemon",
+    x = "Height",
+    y = "Weight"
+  )
+
+```
+
+## License
+
+MIT
