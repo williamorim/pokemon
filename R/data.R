@@ -30,7 +30,7 @@
 #' }
 #' @source <https://bulbapedia.bulbagarden.net/wiki/Main_Page>
 #' @source <https://github.com/phalt/pokeapi>
-#' @source <https://pokemon-uranium.wikia.com>
+#' @source <https://pokemon-uranium.fandom.com/wiki/Main_Page>
 #' @source <https://github.com/HybridShivam/Pokemon>
 "pokemon"
 
@@ -66,6 +66,6 @@
 #' }
 #' @source <https://bulbapedia.bulbagarden.net/wiki/Main_Page>
 #' @source <https://github.com/phalt/pokeapi>
-#' @source <https://pokemon-uranium.wikia.com>
+#' @source <https://pokemon-uranium.fandom.com/wiki/Main_Page>
 #' @source <https://github.com/HybridShivam/Pokemon>
 "pokemon_ptbr"

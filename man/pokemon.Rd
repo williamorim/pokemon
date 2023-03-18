@@ -36,7 +36,7 @@ A data frame with 949 rows and 22 columns:
 
 \url{https://github.com/phalt/pokeapi}
 
-\url{https://pokemon-uranium.wikia.com}
+\url{https://pokemon-uranium.fandom.com/wiki/Main_Page}
 
 \url{https://github.com/HybridShivam/Pokemon}
 }
