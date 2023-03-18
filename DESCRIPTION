@@ -4,7 +4,7 @@ Version: 0.1.2
 Authors@R:
   person("William", "Amorim", , "thewilliam89@gmail.com", role = c("aut", "cre"),
   comment = c(ORCID = "0000-0003-0543-3473"))
-Description: This package provides a dataset of Pokemon information in 
+Description: Provides a dataset of Pokemon information in 
   both English and Brazilian Portuguese. The dataset contains 949 rows and 
   22 columns, including information such as the Pokemon's name, ID, height, 
   weight, stats, type, and more.
