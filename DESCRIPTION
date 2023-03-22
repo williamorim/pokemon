@@ -10,6 +10,7 @@ Description: Provides a dataset of Pokemon information in
   weight, stats, type, and more.
 License: MIT + file LICENSE
 Encoding: UTF-8
+Language: en-US
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
 Depends:
