@@ -70,7 +70,7 @@
 #' @source <https://github.com/HybridShivam/Pokemon>
 "pokemon_ptbr"
 
-#' Pokémon-data (PT-BR)
+#' Pokémon-data (DA-DK)
 #'
 #' Et datasæt ned pokémon-data fra Nintendo-spil.
 #'
