@@ -3,7 +3,7 @@
 \docType{data}
 \name{pokemon_dadk}
 \alias{pokemon_dadk}
-\title{Pokémon-data (PT-BR)}
+\title{Pokémon-data (DA-DK)}
 \format{
 En data frame med 949 rækker og 22 kolonner.
 \describe{
