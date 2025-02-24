@@ -69,3 +69,39 @@
 #' @source <https://pokemon-uranium.fandom.com/wiki/Main_Page>
 #' @source <https://github.com/HybridShivam/Pokemon>
 "pokemon_ptbr"
+
+#' Pokémon-data (DA-DK)
+#'
+#' Et datasæt ned pokémon-data fra Nintendo-spil.
+#'
+#' @format
+#' En data frame med 949 rækker og 22 kolonner.
+#' \describe{
+#'  \item{id}{en numerisk vektor, som angiver hver Pokémon's ID}
+#'  \item{pokemon}{en karaktervektor, som angiver hver Pokémon's navn}
+#'  \item{art_id}{en numerisk vektor, som angiver hver Pokémon's arts-ID}
+#'  \item{højde}{en numerisk vektor, som angiver hver Pokémon's højde}
+#'  \item{vægt}{en numerisk vektor, som angiver hver Pokémon's vægt}
+#'  \item{basis_erfaring}{en numerisk vektor, som angiver hver Pokémon's basiserfaring}
+#'  \item{type_1}{en karaktervektor, som angiver hver Pokémon's primære type}
+#'  \item{type_2}{en karaktervektor, som angiver hver Pokémon's sekundære type}
+#'  \item{hp}{en numerisk vektor, som angiver hver Pokémon's helbredspoint (HP)}
+#'  \item{angreb}{en numerisk vektor, som angiver hver Pokémon's angrebspoint}
+#'  \item{forsvar}{en numerisk vektor, som angiver hver Pokémon's forsvarspoints}
+#'  \item{speciel_angreb}{en numerisk vektor, som angiver hver Pokémon's specialangrebspoint}
+#'  \item{speciel_forsvar}{en numerisk vektor, som angiver hver Pokémon's specialforsvarspoint}
+#'  \item{fart}{en numerisk vektor, som angiver hver Pokémon's fart}
+#'  \item{farve_1}{en karaktervektor, som angiver hver Pokémon's primære farve}
+#'  \item{farve_2}{en karaktervektor, som angiver hver Pokémon's sekundære farve}
+#'  \item{farve_slut}{en karaktervektor, som angiver hver Pokémon's endelige farve}
+#'  \item{æg_gruppe_1}{en karaktervektor, som angiver hver Pokémon's primære æggegruppe}
+#'  \item{æg_gruppe_2}{en karaktervektor, som angiver hver Pokémon's sekundære æggegruppe}
+#'  \item{url_ikon}{en karaktervektor, som angiver hver Pokémon's ikon-URL}
+#'  \item{generation_id}{en numerisk vektor, som angiver hver Pokémon's generations-ID}
+#'  \item{urlbillede}{en karaktervektor, som angiver hver Pokémon's billede-URL}
+#' }
+#' @source <https://bulbapedia.bulbagarden.net/wiki/Main_Page>
+#' @source <https://github.com/phalt/pokeapi>
+#' @source <https://pokemon-uranium.fandom.com/wiki/Main_Page>
+#' @source <https://github.com/HybridShivam/Pokemon>
+"pokemon_dadk"
